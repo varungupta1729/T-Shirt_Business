@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans&amp;display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/swiper.css" />
+    <link rel="shortcut icon" href="black logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+    />
+
+    <!-- JavaScript -->
+    <!-- //map -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/scrollReveal.js"></script>
+    <script src="assets/js/script.js" defer type="module"></script>
+    <title>Shopy</title>
+  </head>
+  <body>
+    <!-- ============= Header ============= -->
+    <header id="header" class="header ">
+      <nav class="header__container container">
+        <div class="upper-nav">
+          <div class="nav-logo flex">
+            <div class="logo">
+            <!-- <img id="logo_image" src="black logo.png" alt="" srcset="" /> -->
+          </div>
+          </div>
+          <div class="search-bar-box">
+            <div class="header__btn">
+              <span style="--i: 0"></span>
+              <span style="--i: 10"></span>
+              <span style="--i: 20"></span>
+            </div>
+            <div class="search-box">
+              
+              <!-- <label for="exampleDataList" class="form-label">Datalist example</label> -->
+              <i class="fa-solid fa-magnifying-glass"></i>
+<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+<datalist id="datalistOptions">
+  <option value="Cotton Tshirts">
+  <option value="Polo Tshirts">
+  <option value="Micro Poly">
+  <option value="Dry Fit">
+  
+</datalist>
+            </div>
+
+            <div class="side-nav">
+              <a href = "mailto: wedesignepvtltd.com"> <i class="fa-regular fa-envelope"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=+917617730973&text=Hello_To_Weetees"  target="_blank"><i class="bi bi-whatsapp hide-feature"></i></a>
+              <a href="tel:+917617730973"  target="_blank"><i class="fa-solid fa-phone hide-feature"></i></a>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="lower-nav">
+          <ul class="header__links">
+            <li class="header__link">
+              <a href="#home" class="active">home</a>
+            </li>
+            <li class="header__link">
+              <a href="#new">new</a>
+            </li>
+            <li class="header__link">
+              <a href="#shop">shop</a>
+            </li>
+            <li class="header__link">
+              <a href="#trending">trending</a>
+            </li>
+            <li class="header__link">
+              <a href="https://form.jotform.com/232427706509458">Order Now</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ============= Home Section ============= -->
+
+    <section class="section home" id="home">
+      <div class="home__content swiper">
+        <div class="swiper-wrapper">
+          <div class="home__slide swiper-slide">
+            <div class="home__image">
+              <img src="./assets/images/landing1.jpg" alt="home1" />
+            </div>
+            <div class="home__description">
+              <p class="home__sub-heading">Create printed t-shirts that look & feel great.</p>
+              <h1 class="home__heading">Custom T-Shirts</h1>
+            </div>
+          </div>
+          <div class="home__slide swiper-slide">
+            <div class="home__image">
+              <img src="./assets/images/home2.png" alt="home2" />
+            </div>
+            <div class="home__description">
+              <p class="home__sub-heading">Get Designs By Our Designers</p>
+              <h1 class="home__heading">modern designs</h1>
+            </div>
+          </div>
+          <div class="home__slide swiper-slide">
+            <div class="home__image">
+              <img src="./assets/images/home3.png" alt="home3" />
+            </div>
+            <div class="home__description">
+              <p class="home__sub-heading"></p>
+              <h1 class="home__heading">unique designs</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#shop" class="home__btn btn shop-btn">shop now</a>
+      <a href="#new" class="home__btn btn go-down-btn">
+        <span class="material-symbols-rounded icon">arrow_downward</span>
+        <p class="circle-text">Explore more</p>
+      </a>
+    </section>
+    <!-- ============= Feature Section ============= -->
+
+    <!--promo section start-->
+    <section class="promo-section mt-5 ptb-100">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-6 col-md-1">
+            <div class="section-heading mb-5 ">
+              <span class="badge badge-primary badge-pill">Key features</span>
+              <h5 class="h5 mt-3 mb-6 " style="width: 70vw;">
+                We will helps you to build beautiful websites that stand out and
+                automatically adapt to your style.
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 mb-lg-0 feature-box ">
+            <div class="card single-promo-card single-promo-hover">
+              <div class="card-body flex ">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-truck"></i>
+                </div>
+                <div class="pt-2 pb-3 text-center">
+                  <h5>Free Shipping</h5>
+                  <p class="text-muted mb-0 ">
+                    All components are built to be used in any combination.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 feature-box">
+            <div class="card single-promo-card single-promo-hover mb-lg-0">
+              <div class="card-body flex ">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-clock"></i>
+                </div>
+                <div class="pt-2 pb-3 text-center">
+                  <h5>Priority Shipping</h5>
+                  <p class="text-muted mb-0">
+                    Quick is optimized to work for most devices.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 feature-box" >
+            <div class="card single-promo-card single-promo-hover mb-lg-0">
+              <div class="card-body flex ">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-shirt"></i>
+                </div>
+                <div class="pt-2 pb-3 text-center">
+                  <h5>Print Guarantee</h5>
+                  <p class="text-muted mb-0">
+                    Remain consistent while developing new features.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 feature-box">
+            <div class="card single-promo-card single-promo-hover mb-lg-0">
+              <div class="card-body flex ">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-palette"></i>
+                </div>
+                <div class="pt-2 pb-3 text-center">
+                  <h5>Design Assistance</h5>
+                  <p class="text-muted mb-0">
+                    Change a few variables and the whole theme adapts.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--promo section end-->
+    <!-- ============= Feature Section ============= -->
+    <!-- ============= New Section ============= -->
+
+    <section class="section new" id="new">
+      <div class="section__title">
+        <h1>new arrivals</h1>
+      </div>
+      <div class="new__container container">
+        <div class="new__btns swiper-btns">
+          <button
+            class="swiper-btn swiper-button-prev btn btn-border btn-border-black"
+            id="arrow-left"
+          >
+            <span class="material-symbols-rounded"> arrow_back_ios_new </span>
+          </button>
+          <button
+            class="swiper-btn swiper-button-next btn btn-border btn-border-black"
+            id="arrow-right"
+          >
+            <span class="material-symbols-rounded"> arrow_forward_ios </span>
+          </button>
+        </div>
+        <div class="new__content swiper">
+          <div class="new__products products swiper-wrapper"></div>
+        </div>
+      </div>
+    </section>
+    <!-- ============= Floating Button Section ============= -->
+
+    <!-- //call -->
+    <div class="quick_contact hidden">
+      <a href="https://api.whatsapp.com/send?phone=+917617730973&text=Hello_To_Weetees" class="qwhtsapp" target="_blank">
+        <i class="bi bi-whatsapp quick_contact_icon"></i>
+      </a>
+      <a href="tel:+917617730973" class="qcall " target="_blank">
+        <i class="fa-solid fa-phone quick_contact_icon"></i>
+      </a>
+    </div>
+
+    <div class="nav-whatsapp">
+      <div class="wrapperWA">
+        <div class="wrapperWA-header">
+          <h2>WhatsApp Chat</h2>
+          <div class="closeWA">
+            <svg
+              class="h-6 w-6"
+              fill="none"
+              stroke="#f40076"
+              viewbox="0 0 24 24"
+            >
+              <path
+                d="M6 18L18 6M6 6l12 12"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="form-container" id="waform-IT">
+          <div class="formC">
+            <div class="Fcontrol">
+              <input
+                class="cName"
+                id="cName"
+                name="name"
+                required="required"
+                type="text"
+              />
+              <span class="nameC">Name</span>
+              <span class="valid" id="error_name"></span>
+            </div>
+            <div class="Fcontrol">
+              <input
+                class="cEmail"
+                id="cEmail"
+                name="email"
+                required="required"
+                type="email"
+              />
+              <span class="emailC">Email</span>
+              <span class="valid" id="error_email"></span>
+            </div>
+          </div>
+          <div class="formC">
+            <div class="Fcontrol">
+              <select class="cSubject" id="cSubject">
+                <option value="Order">Orders</option>
+                <option value="Pertanyaan">Partnership</option>
+                <option value="Kerjasama">Any Other Question</option>
+              </select>
+              <span class="subjectC">Select subject</span>
+            </div>
+            <div class="Fcontrol">
+              <textarea
+                class="cMessage"
+                id="cMessage"
+                name="message"
+                required="required"
+              ></textarea>
+              <span class="messageC">Message</span>
+              <span class="valid" id="error_message"></span>
+            </div>
+          </div>
+          <div class="formB">
+            <a
+              id="send"
+              class="whatsapp-send"
+              href="#"
+              onclick="sendToWhatsApp()"
+              ><svg viewbox="0 0 32 32">
+                <path
+                  d="M16 2a13 13 0 0 0-8 23.23V29a1 1 0 0 0 .51.87A1 1 0 0 0 9 30a1 1 0 0 0 .51-.14l3.65-2.19A12.64 12.64 0 0 0 16 28a13 13 0 0 0 0-26Zm0 24a11.13 11.13 0 0 1-2.76-.36 1 1 0 0 0-.76.11L10 27.23v-2.5a1 1 0 0 0-.42-.81A11 11 0 1 1 16 26Z"
+                ></path>
+                <path
+                  d="M19.86 15.18a1.9 1.9 0 0 0-2.64 0l-.09.09-1.4-1.4.09-.09a1.86 1.86 0 0 0 0-2.64l-1.59-1.59a1.9 1.9 0 0 0-2.64 0l-.8.79a3.56 3.56 0 0 0-.5 3.76 10.64 10.64 0 0 0 2.62 4 8.7 8.7 0 0 0 5.65 2.9 2.92 2.92 0 0 0 2.1-.79l.79-.8a1.86 1.86 0 0 0 0-2.64Zm-.62 3.61c-.57.58-2.78 0-4.92-2.11a8.88 8.88 0 0 1-2.13-3.21c-.26-.79-.25-1.44 0-1.71l.7-.7 1.4 1.4-.7.7a1 1 0 0 0 0 1.41l2.82 2.82a1 1 0 0 0 1.41 0l.7-.7 1.4 1.4Z"
+                ></path></svg>Send Message</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="whatsapp-float">
+        <div class="whatsapp-icon">
+          <svg viewbox="0 0 512 512">
+            <path
+              d="M414.73 97.1A222.14 222.14 0 0 0 256.94 32C134 32 33.92 131.58 33.87 254a220.61 220.61 0 0 0 29.78 111L32 480l118.25-30.87a223.63 223.63 0 0 0 106.6 27h.09c122.93 0 223-99.59 223.06-222A220.18 220.18 0 0 0 414.73 97.1zM256.94 438.66h-.08a185.75 185.75 0 0 1-94.36-25.72l-6.77-4-70.17 18.32 18.73-68.09-4.41-7A183.46 183.46 0 0 1 71.53 254c0-101.73 83.21-184.5 185.48-184.5a185 185 0 0 1 185.33 184.64c-.04 101.74-83.21 184.52-185.4 184.52zm101.69-138.19c-5.57-2.78-33-16.2-38.08-18.05s-8.83-2.78-12.54 2.78-14.4 18-17.65 21.75-6.5 4.16-12.07 1.38-23.54-8.63-44.83-27.53c-16.57-14.71-27.75-32.87-31-38.42s-.35-8.56 2.44-11.32c2.51-2.49 5.57-6.48 8.36-9.72s3.72-5.56 5.57-9.26.93-6.94-.46-9.71-12.54-30.08-17.18-41.19c-4.53-10.82-9.12-9.35-12.54-9.52-3.25-.16-7-.2-10.69-.2a20.53 20.53 0 0 0-14.86 6.94c-5.11 5.56-19.51 19-19.51 46.28s20 53.68 22.76 57.38 39.3 59.73 95.21 83.76a323.11 323.11 0 0 0 31.78 11.68c13.35 4.22 25.5 3.63 35.1 2.2 10.71-1.59 33-13.42 37.63-26.38s4.64-24.06 3.25-26.37-5.11-3.71-10.69-6.48z"
+            ></path>
+          </svg>
+        </div>
+        <span class="whatsapp-text">Talk to us?</span>
+      </div>
+    </div>
+    <!-- partial -->
+    <!-- 
+  <script>
+    const sendToWhatsApp = () =>{
+      let send = document.getElementById("send");
+      let name = document.getElementById("cName");
+      let email = document.getElementById("cEmail");
+      let message = document.getElementById("cMessage");
+      let subject = document.getElementById("cSubject");
+      let finalMsg = `Subject : ${subject.value} \nMy name is ${name.value} and \nMy email : ${email.value} and \nMy message to  you :${message.value}`
+      send.href = `https://api.whatsapp.com/send?text=${finalMsg}&phone=+917617730973`
+    }
+  </script> -->
+    <script>
+      //<![CDATA[
+      // Formulir floating whatsApp by @inputekno
+      /* Tombol Buka Tutup */
+      var menuToggle = document.querySelector(".whatsapp-float"),
+        wrapperMenu = document.querySelector(".nav-whatsapp"),
+        closeWA = document.querySelector(".closeWA");
+      var inputs = document.querySelectorAll(
+        ".Fcontrol input[type=text], .Fcontrol input[type=email], .Fcontrol textarea"
+      );
+
+      menuToggle.onclick = function () {
+        wrapperMenu.classList.toggle("active");
+      };
+      closeWA.onclick = function () {
+        wrapperMenu.classList.remove("active");
+      };
+
+      for (var i = 0; i < inputs.length; i++) {
+        var input = inputs[i];
+        input.addEventListener("input", function () {
+          var bg = this.value ? "show" : "none";
+          this.setAttribute("class", bg);
+        });
+      }
+
+      function sendToWhatsApp() {
+        /* Formulir Input Panggilan */
+        let send = document.getElementById("send");
+        var name = document.getElementById("cName").value;
+        var email = document.getElementById("cEmail").value;
+        var subject = document.getElementById("cSubject").value;
+        var massage = document.getElementById("cMessage").value;
+        var postLink = window.location.href;
+        /* validasi Untuk Kolom Wajib Isi */
+        var error_name = document.getElementById("error_name"),
+          error_email = document.getElementById("error_email"),
+          error_message = document.getElementById("error_message");
+        var text;
+        if (name == "") {
+          text = "Please enter your name";
+          error_name.setAttribute("data-text", text);
+          return false;
+        }
+        if (email.indexOf("@") == -1 || email.length < 6) {
+          text = "Please enter valid email";
+          error_email.setAttribute("data-text", text);
+          return false;
+        }
+        if (massage == "") {
+          text = "Please enter your Massage";
+          error_message.setAttribute("data-text", text);
+          return false;
+        }
+        /* URL Final Whatsapp */
+        var message = "New message from " + name + "\n\n"; // Pesan Pembuka
+        message += "*Name:* " + name + "\n";
+        message += "*Email:* " + email + "\n";
+        message += "*Subject:* " + subject + "\n";
+        message += "*Massage:* " + massage + "\n\n";
+        message += "=============================" + "\n";
+        message += "*Form:* " + postLink + "\n";
+        message += "=============================";
+        /* Pengaturan Whatsapp */
+        // var walink = 'https://web.whatsapp.com/send',
+        var walink = "https://api.whatsapp.com/send";
+        phoneNumber = "+917617730973"; // No Whatsapp Kalian
+        var encodedMessage = encodeURIComponent(message);
+        var whatsappUrl =
+          walink + "?text=" + encodedMessage + "&phone=" + phoneNumber;
+        // send.href = whatsappUrl
+        window.open(whatsappUrl, "_blank");
+        // console.log(whatsappUrl)
+        return true;
+      }
+      //]]>
+    </script>
+
+    <!-- ============= Floating Button Section ============= -->
+
+    <!-- ============= Shop Section ============= -->
+
+    <section class="section shop" id="shop">
+      <div class="section__title">
+        <h1>shop</h1>
+      </div>
+      <div class="shop__container container">
+        <div class="shop__content">
+          <div class="shop__categories">
+            <button
+              class="shop__category btn btn-border btn-border-black selected"
+              data-category="all"
+            >
+              all
+            </button>
+            <button
+              class="shop__category btn btn-border btn-border-black"
+              data-category="men"
+            >
+              men
+            </button>
+            <button
+              class="shop__category btn btn-border btn-border-black"
+              data-category="women"
+            >
+              women
+            </button>
+          </div>
+          <div class="shop__products products"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============= Brands Section ============= -->
+
+    <section class="section brands">
+      <div class="section__title">
+        <h1>brands</h1>
+      </div>
+      <div class="brands__container container">
+        <div class="brands__logo">
+          <img src="./assets/images/brand1.png" alt="Adidas" />
+        </div>
+        <div class="brands__logo">
+          <img src="./assets/images/brand2.png" alt="Louis Vuitton" />
+        </div>
+        <div class="brands__logo">
+          <img src="./assets/images/brand3.png" alt="The North Face" />
+        </div>
+        <div class="brands__logo">
+          <img src="./assets/images/brand4.png" alt="Nike" />
+        </div>
+        <div class="brands__logo">
+          <img src="./assets/images/brand5.png" alt="Reebok" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============= Trending Section ============= -->
+
+    <section class="section trending" id="trending">
+      <div class="section__title">
+        <h1>what's trending</h1>
+      </div>
+      <div class="trending__container container">
+        <div class="trending__content swiper">
+          <div class="trending__products swiper-wrapper"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============= Subscribe Section ============= -->
+
+    <section class="section subscribe">
+      <div class="section__title">
+        <h1>Request The Catalogue</h1>
+      </div>
+      <div class="subscribe__container container">
+        <div class="subscribe__text">
+          <p>Catalogue carry all the information about the Tshirts Feel Free To Contact</p>
+        </div>
+        <form class="form" autocomplete="off">
+          <input
+            type="text"
+            class="form__input"
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+          <a href="https://api.whatsapp.com/send?phone=+917617730973&text=I am requested to provide me the Catalogue"  target="_blank">
+          <button
+            type="submit"
+            class="form__btn btn btn-border btn-border-white"
+          >
+            Request
+          </button>
+        </a>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============= Footer ============= -->
+
+    <footer class="footer ">
+      <div class="footer__container   ">
+        <div class="footer__col  "> 
+          <div class="footer__logo ">
+            <h1>
+              <a href="./"><img src="./white logo.png" alt="" srcset="" ></a>
+            </h1>
+          </div>
+          <div class="footer__description flex-p">
+            <p >
+              It was found to sell the best products from the most popular
+              brands in the world.
+            </p>
+          </div>
+        </div>
+        <div class="footer__col ">
+          <div class="footer__title ">
+            <h3>company</h3>
+            <ul class="footer__links  ">
+              <li class="footer__link"><a href="#home">Home</a></li>
+              <li class="footer__link"><a href="#new">New</a></li>
+              <li class="footer__link"><a href="#shop">Shop</a></li>
+              <li class="footer__link"><a href="#trending">Trending</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__col ">
+          <div class="footer__title flex-footer">
+            <h3>information</h3>
+            <ul class="footer__links">
+              <li class="footer__link">
+                <a href="#">
+                  <span class="material-symbols-rounded"> location_on </span>
+                  <p>Jordan, Amman, Mecca St.</p>
+                </a>
+              </li>
+              <li class="footer__link">
+                <a href="#">
+                  <span class="material-symbols-rounded"> schedule </span>
+                  <p>
+                    Saturday - Thursday <br />
+                    9AM - 12PM
+                  </p>
+                </a>
+              </li>
+              <li class="footer__link">
+                <a href="tel:+917617730973">
+                  <span class="material-symbols-rounded"> call </span>
+                  <p>+91 7617730973</p>
+                </a>
+              </li>
+              <li class="footer__link">
+                <a href="mailto:wedesignepvtltd@gmail.com">
+                  <span class="material-symbols-rounded"> mail </span>
+                  <p>wedesignepvtltd@gmail.com</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="googlemap footer__title" >
+          <h3>Our Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.893214057902!2d77.49584577472757!3d28.752605078619304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf47204fb9241%3A0xd11ed4123c7691fe!2sKIET%20GROUP%20OF%20INSTITUTIONS%2C%20Muradnagar%2C%20Uttar%20Pradesh%20201206!5e0!3m2!1sen!2sin!4v1693608087528!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      </div>
+      <div class="footer__copyRight">
+        <p>&copy; 2023 <span>WeDesigne</span> All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- ============= Scroll UP ============= -->
+    <button class="scroll-up btn btn-border btn-border-black">
+      <span class="material-symbols-rounded"> arrow_upward </span>
+    </button>
+<!-- <script>
+  const header = document.getElementById("header");
+  const logo = document.getElementById("logo_image");
+header.addEventListener("mouseover" , ()=>{
+    logo.src = replace("black" , "white")
+})
+</script> -->
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
