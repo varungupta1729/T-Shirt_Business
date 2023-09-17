@@ -104,7 +104,7 @@
         "image": "../../images/n.png",
         "image2": "../../images/5.png",
         "isNew": false,
-        "isTrending": true,
+        "isTrending": false,
         "category": "men"
     },
     {
@@ -116,7 +116,7 @@
         "image": "../../images/m.png",
         "image2": "../../images/20.png",
         "isNew": false,
-        "isTrending": true,
+        "isTrending": false,
         "category": "women"
     },
     {
@@ -140,7 +140,7 @@
         "image": "../../images/k.png",
         "image2": "../../images/3.png",
         "isNew": true,
-        "isTrending": true,
+        "isTrending": false,
         "category": "women"
     },
     {
@@ -213,6 +213,42 @@
         "image2": "../../images/13.png",
         "isNew": true,
         "isTrending": false,
+        "category": "men"
+    },
+    {
+        "id": 19,
+        "title": "Micro Poly (Nirmal)",
+        "trendTitle": "EasyED ipsum dolor",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ratione sint, minima itaque maxime facilis necessitatibus aliquam veritatis, possimus sapiente esse aspernatur atque harum laboriosam consequatur quam pariatur, doloremque expedita.",
+        "price":180,
+        "image": "../../images/review2.png",
+        "image2": "../../images/13.png",
+        "isNew": true,
+        "isTrending": true,
+        "category": "men"
+    },
+    {
+        "id": 20,
+        "title": "Micro Poly (Nirmal)",
+        "trendTitle": "Lorem ipsum dolor",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ratione sint, minima itaque maxime facilis necessitatibus aliquam veritatis, possimus sapiente esse aspernatur atque harum laboriosam consequatur quam pariatur, doloremque expedita.",
+        "price":180,
+        "image": "../../images/review1.png",
+        "image2": "../../images/13.png",
+        "isNew": true,
+        "isTrending": true,
+        "category": "men"
+    },
+    {
+        "id": 21,
+        "title": "Micro Poly (Nirmal)",
+        "trendTitle": "Lorem ipsum dolor",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ratione sint, minima itaque maxime facilis necessitatibus aliquam veritatis, possimus sapiente esse aspernatur atque harum laboriosam consequatur quam pariatur, doloremque expedita.",
+        "price":180,
+        "image": "../../images/a.png",
+        "image2": "../../images/13.png",
+        "isNew": true,
+        "isTrending": true,
         "category": "men"
     }
 ]

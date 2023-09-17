@@ -375,6 +375,10 @@ body::-webkit-scrollbar-thumb{
 .section__title h1 {
     text-transform: uppercase;
 }
+.section__title h1 span{
+    font-size: 0.8rem;
+    color: rgb(221, 58, 58);
+}
 
 /* ============= START NEW SECTION ============= */
 
@@ -597,8 +601,12 @@ body::-webkit-scrollbar-thumb{
 
 .brands__logo {
     width: 150px;
-    background-color: var(--white-95);
+    
     padding: 10px;
+}
+.edtech{
+background-color: black;
+border-radius: 23px;
 }
 
 .brands__logo img {

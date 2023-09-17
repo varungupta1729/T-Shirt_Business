@@ -1,5 +1,5 @@
 function ProductCard({ id, title, price, image, image2, category }) {
-    return `<div class="swiper-slide product-card" data-id="${id}" data-category="${category}" data-image1="${image}" data-image2="${image2}">
+    return id<=18?`<div class="swiper-slide product-card" data-id="${id}" data-category="${category}" data-image1="${image}" data-image2="${image2}">
                 <div class="product-card__image">
                     <img src="${image}" alt="${title}" />
                 </div>
@@ -18,7 +18,7 @@ function ProductCard({ id, title, price, image, image2, category }) {
                     <span class="border-animation"></span>
                     <span class="border-animation"></span>
                 </div>
-            </div>`;
+            </div>`:"";
 }
 
 export default ProductCard;
