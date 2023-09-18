@@ -258,7 +258,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .home__image img {
-    object-fit:fill !important;
+    object-fit:contain !important;
 }
 
 .home__description {
