@@ -712,9 +712,12 @@ border-radius: 23px;
 .subscribe {
     position: relative;
     padding: calc(var(--padding-3) * 1.3) 0;
-    background-image: url("../images/subscribe.jpg");
+    background-image: url("https://cdn.shopify.com/s/files/1/0070/7032/files/print_20on_20demand_20companies.png?format=jpg&quality=90&v=1693890948&width=1024");
     background-position: center;
     background-size: cover;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    
 }
 
 .subscribe::before {
