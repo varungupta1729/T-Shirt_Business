@@ -10,10 +10,10 @@ function TrendingCard({ id, title, trendTitle, description, image, category }) {
                         <span>${trendTitle.split(" ")[0]}</span>
                         <p>${trendTitle.split(" ").slice(1).join(" ")}</p>
                     </h1>
-                    <p class="category">${category} collection</p>
+                    <p class="category"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></p>
                     <p class="desc">${description}</p>
                 </div>
-                <div class="btn explore-more">Explore more <span class="material-symbols-rounded"> trending_flat</span></div>
+                
             </div>
         </div>
     `;

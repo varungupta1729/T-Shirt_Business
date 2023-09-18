@@ -258,7 +258,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .home__image img {
-    object-fit: contain !important;
+    object-fit:fill !important;
 }
 
 .home__description {
@@ -671,10 +671,10 @@ border-radius: 23px;
 
 .trending__product__text .category {
     font-size: var(--font-size-1);
-    font-weight: var(--font-sime-bold);
-    font-variant: small-caps;
-    color: var(--black-4\13);
-    margin-bottom: var(--margin-2);
+    letter-spacing: 3px;
+    
+    color: rgb(248, 219, 0);
+   
 }
 
 .trending__product__text .desc {
