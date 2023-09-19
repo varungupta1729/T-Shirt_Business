@@ -22,6 +22,10 @@ body{
     margin-right: 0 !important;
 }
 
+html{
+    width:100vw;
+}
+
 
 
 a {
