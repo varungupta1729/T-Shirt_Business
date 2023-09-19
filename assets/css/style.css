@@ -331,7 +331,7 @@ body::-webkit-scrollbar-thumb{
     justify-content: center;
     position: absolute;
     bottom: 50px;
-    right: 15%;
+    right: 7%;
     width: 90px;
     height: 90px;
     z-index: 20;
