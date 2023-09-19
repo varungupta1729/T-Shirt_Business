@@ -14,18 +14,22 @@
 }
 
 body{
-    height: 100vh;
-   
+    
     font-family: 'Open Sans', sans-serif;
     font: inherit;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    margin-right: 0 !important;
 }
+
 
 
 a {
     text-decoration: none !important ;
     
+}
+a:hover{
+    color: white;
 }
 body::-webkit-scrollbar{
     
@@ -224,8 +228,8 @@ body::-webkit-scrollbar-thumb{
 /* ============= START HOME SECTION ============= */
 
 .home {
-    position: relative;
-    height: 70vh;
+    position:relative;
+    height: 100vh;
     padding-top: 0;
     /* border: 3px black solid; */
     top: 0;
@@ -248,18 +252,18 @@ body::-webkit-scrollbar-thumb{
 .home__image {
     width: 100%;
     height: 100%;
-    transform: translateY(100px) scale(0.5);
+    transform: translateX(100vw) ;
     opacity: 0;
-    transition: transform var(--fast-duration) ease, opacity var(--fast-duration) ease;
+    transition: transform var(--fast-duration) ease;
 }
 
 .home__slide.reveal .home__image {
-    transform: translateY(0) scale(1);
+    transform: translateX(0) ;
     opacity: 1;
 }
 
 .home__image img {
-    object-fit:contain !important;
+    object-fit: fill !important;
 }
 
 .home__description {
@@ -1315,6 +1319,16 @@ margin: 12px;
 
 
 @media screen and (max-width: 768px) {
+   
+    .home{
+        height: 75vh;
+    }
+    .home__image img {
+        height: 75vh;
+        /* border: 2px black solid; */
+        object-fit: contain !important;
+        bottom: 0 !important;
+    }
     .header__btn {
         display: flex;
     }
