@@ -1217,6 +1217,7 @@ border-radius: 23px;
     align-items: center;
     background-color: #f5f5f5;
     
+    margin-top: 0 !important;
     /* margin-right: 20px; */
    
     
@@ -1243,6 +1244,7 @@ border-radius: 23px;
 .single-promo-card .card-body{
     padding: 1.5rem;
     flex-direction: column;
+    justify-content: space-between;
     
 }
 .feature-icon i {
