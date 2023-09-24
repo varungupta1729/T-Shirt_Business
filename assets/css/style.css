@@ -19,7 +19,7 @@ body{
     font: inherit;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    margin-right: 0 !important;
+    /* margin-right: 0 !important; */
 }
 
 
@@ -652,6 +652,11 @@ border-radius: 23px;
 .trending__product__image {
     width: 50%;
     height: 100%;
+    
+}
+.trending__product__image img{
+    border-radius: 30px;
+  
 }
 
 .trending__product__description {
@@ -693,7 +698,12 @@ border-radius: 23px;
 
 @media screen and (max-width: 992px) {
     .trending__product__image {
+        
         width: 100%;
+    }
+    .trending__product__image img{
+        border-radius: 0;
+      
     }
     .trending__product__description {
         position: absolute;
