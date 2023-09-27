@@ -21,7 +21,9 @@ body{
     -webkit-font-smoothing: antialiased;
     /* margin-right: 0 !important; */
 }
-
+html{
+    height: 100%;
+}
 
 
 
